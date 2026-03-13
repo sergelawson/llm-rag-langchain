@@ -1,0 +1,28 @@
+# Compilers Overview
+
+A compiler is a special program that translates source code written in a high-level programming language into machine code, bytecode, or another programming language.
+
+## Key Stages of Compilation:
+
+1. **Lexical Analysis** - Breaking source code into tokens
+2. **Syntax Analysis** - Parsing tokens into an abstract syntax tree (AST)
+3. **Semantic Analysis** - Checking for semantic errors and type consistency
+4. **Intermediate Code Generation** - Creating an intermediate representation
+5. **Optimization** - Improving code efficiency
+6. **Code Generation** - Producing target machine code
+
+## Types of Compilers:
+
+- **Single-pass compilers** - Process source code in one pass
+- **Multi-pass compilers** - Process source code multiple times
+- **Just-in-Time (JIT) compilers** - Compile during program execution
+- **Cross-compilers** - Generate code for a different platform
+
+## Popular Compilers:
+
+- GCC (GNU Compiler Collection) - C, C++, Fortran
+- Clang/LLVM - C, C++, Objective-C
+- javac - Java
+- rustc - Rust
+
+Compilers differ from interpreters, which execute code directly without producing a separate executable file.
